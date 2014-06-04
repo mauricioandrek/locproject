@@ -5,5 +5,6 @@
     echo 	"tabela : ".$data["table"];
 	echo	"\nfiltro: ".$data["filter"];
 	echo	"\nstring: ".$data["string"];
-		
+	
+	
 ?>
