@@ -1,0 +1,20 @@
+.header{height:206%;width:100%;position:absolute;background-image:url('img/fundo_header.GIF');background-repeat:no-repeat;margin-top:-1%;margin-left:-12;background-size:92% 50%;background-color:black;}
+.button_login{height:3%;width:5%;margin-right:0%;position:absolute;cursor:pointer;background-color:rgba(255,255,255,0.5);text-align:center;margin-left:94%;font-size:95%;margin-top:2%;}
+.button_signin{background-color:rgba(255,255,255,0.5);height:3%;width:9%;margin-left:84%;margin-top:2%;position:absolute;text-align:center;font-size:83%;cursor:pointer;}
+.title_header{margin-left:16%;margin-top:0%;font-size:211%;position:absolute;}
+.form_search{margin-top:3%;position:absolute;margin-left:37%;cursor:pointer;}
+.search_header{margin-top:3%;position:absolute;margin-left:92%}
+.search_button{cursor:pointer;}
+.menu_actions{position:absolute;width:15%;height:90%;background-image:url('img/fundo_header.GIF');background-size:0% 50%;background-position:0% -169;margin-top:5%;margin-left:-1%;}
+.button_film{background-color:white;width:70%;margin-left:17%;position:absolute;margin-top:39%;cursor:pointer;height:8%;text-align:center;font-size:91%;}
+.button_news{background-color:white;width:70%;margin-left:17%;position:absolute;margin-top:68%;cursor:pointer;height:8%;text-align:center;font-size:91%;}
+.button_promotions{background-color:white;width:70%;margin-left:17%;position:absolute;margin-top:96%;cursor:pointer;height:8%;text-align:center;font-size:91%;}
+.button_info{background-color:white;width:70%;margin-left:17%;position:absolute;margin-top:125%;cursor:pointer;height:8%;text-align:center;font-size:91%;}
+.button_contact{background-color:white;width:70%;margin-left:17%;position:absolute;margin-top:227%;cursor:pointer;height:8%;text-align:center;font-size:91%;}
+.content{background-color:green;position:absolute;width:85%;height:89%;margin-left:15%;margin-top:5%;}
+.search_films_form{width:87%;height:16%;margin-top:3%;position:absolute;margin-left:5%;}
+.search_films_result{background-color:red;width:70%;height:66%;position:absolute;margin-left:5%;margin-top:13%;}
+.form_search_films{margin-top:-3%;position:absolute;margin-left:65%;cursor:pointer;}
+.button_search{width:3%;height:5%;background-image:url('img/search.PNG');background-size:85%;background-repeat:no-repeat;position:fixed;margin-top:-2%;margin-left:56%;cursor:pointer;}
+.check_button{margin-left:7%;margin-top:3%;}
+
