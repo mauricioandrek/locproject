@@ -4,8 +4,9 @@ LOC.actions = LOC.actions || {};
 LOC.actions.film = new function(){
 	
 	this.click = function(){
+		$('#id-button-film').css('background-color', 'gray');
 		LOC.ui.activeAction = LOC.actions.film; // botão ativo
-		console.log('LOC.actions.film');
+	//	console.log('LOC.actions.film');
 		LOC.actions.film.films();
 		
 		};
@@ -17,8 +18,8 @@ LOC.actions.film = new function(){
 		'name':'FILMES'
 	};
 	this.films = function(){
+		
 		LOC.ui.options['filmes'] = true;
-		$('#id-button-films').css('background-color', 'gray');
 		$('#id-search-films').show();
 		$('#id-button-search').show();
 		

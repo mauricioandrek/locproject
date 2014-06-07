@@ -16,7 +16,6 @@ LOC.ui =  new function() {
 	};
 	this.init = function(){
 		console.log('init LOC.ui');
-		$('#id-button-films').on('click', LOC.ui.films);
 		$('#id-button-news').on('click', LOC.ui.news);
 		$('#id-button-promotions').on('click', LOC.ui.promotions);
 		$('#id-button-info').on('click', LOC.ui.info);
@@ -29,13 +28,13 @@ LOC.ui =  new function() {
 		var buttonName = button.data.id;
 		//console.log(buttonName);
 		$('#id-menu-actions').html($('#id-menu-actions').html() +
-			'<div class="button_film" id=' +button.data.id +' onclick=' + button.data.click +'>'
+			'<div class="buttons" id=' + button.data.id +' onclick=' + button.data.click +'>'
 			+ '<p>'+button.data.name+'</p>'
 			+ '</div>'
 		);
 	}
 
-	this.films = function(){
+/*	this.films = function(){
 		LOC.ui.options['filmes'] = true;
 		$('#id-button-films').css('background-color', 'gray');
 		$('#id-search-films').show();
@@ -47,7 +46,7 @@ LOC.ui =  new function() {
 			//console.log(LOC.ui.activeAction.data.searchFilters[i]);
 			searchFilters +=  '<input type="radio" value=' + LOC.ui.activeAction.data.searchFilters[i] + ' name="allfilters" id="id-' + LOC.ui.activeAction.data.searchFilters[i] + '" onclick="LOC.ui.changeFilter(this)">'
 				+ '<label for="id-' + LOC.ui.activeAction.data.searchFilters[i] + '">' + LOC.ui.activeAction.data.searchFilters[i] +'</label>';
-		
+	
 }
 		
 		//console.log(searchFilter);
@@ -60,7 +59,7 @@ LOC.ui =  new function() {
 			});
 			
 		});	
-	}
+	} */
 		
 	this.changeFilter = function(e){
 		LOC.ui.currentFilter = e.value;
@@ -82,33 +81,7 @@ LOC.ui =  new function() {
 				alert(resp);
 			} 
 		});
-	}
-		
-	this.news = function(){
-		LOC.ui.options['news'] = true;
-		$('#id-button-news').css('background-color', 'gray');
-		//$('#id-search-news').show();
-		}
-		
-		
-	this.promotions = function(){
-		LOC.ui.options['promotions'] = true;
-		$('#id-button-promotions').css('background-color', 'gray');
-		//$('#id-search-promotions').show();
-		}
-		
-		
-	this.info= function(){
-		LOC.ui.options['alocadora'] = true;
-		$('#id-button-info').css('background-color', 'gray');
-		//$('#id-search-films').show();
-		}
-		
-		
-	this.contact = function(){
-		LOC.ui.options['contact'] = true;
-		$('#id-button-contact').css('background-color', 'gray');
-		//$('#id-search-films').show();
-		}
-
+	};
 };
+
+

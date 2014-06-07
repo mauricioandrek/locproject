@@ -1,5 +1,3 @@
-
-
 .header{
 	height: 206%;
 	width: 100%;
@@ -11,7 +9,7 @@
 	background-size: 92% 50%;
 	background-color: black;
 }
-	
+
 .button_login{
 	height: 3%;
 	width: 5%;
@@ -55,7 +53,7 @@
 .search_button{
 	cursor:pointer;
 }
-	
+
 .menu_actions{
 	position: absolute;
 	width: 15%;
@@ -66,60 +64,16 @@
 	margin-top: 5%;
 	margin-left: -1%;
 }
-	
-.button_film{
+
+.buttons{
 	background-color: white;
 	width: 70%;
 	margin-left: 17%;
-	position: absolute;
 	margin-top: 39%;
 	cursor: pointer;
 	height: 8%;
 	text-align: center;
-	font-size: 91%;
-}
-.button_news{
-	background-color: white;
-	width: 70%;
-	margin-left: 17%;
-	position: absolute;
-	margin-top: 68%;
-	cursor: pointer;
-	height: 8%;
-	text-align: center;
-	font-size: 91%;
-}
-.button_promotions{
-	background-color: white;
-	width: 70%;
-	margin-left: 17%;
-	position: absolute;
-	margin-top: 96%;
-	cursor: pointer;
-	height: 8%;
-	text-align: center;
-	font-size: 91%;
-}
-.button_info{
-	background-color: white;
-	width: 70%;
-	margin-left: 17%;
-	position: absolute;
-	margin-top: 125%;
-	cursor: pointer;
-	height: 8%;
-	text-align: center;
-	font-size: 91%;
-}
-.button_contact{
-	background-color: white;
-	width: 70%;
-	margin-left: 17%;
-	position: absolute;
-	margin-top: 227%;
-	cursor: pointer;
-	height: 8%;
-	text-align: center;
+	float:right;
 	font-size: 91%;
 }
 

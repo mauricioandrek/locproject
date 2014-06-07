@@ -27,9 +27,8 @@
 	</div>
 	
 	<div class="menu_actions" id="id-menu-actions">
-		
-		<div class="button_film" id="id-button-films">
-		</div>
+<!--		
+
 		<div class="button_news" id="id-button-news">
 			<p>NOTICIAS</p>
 		</div>
@@ -41,8 +40,8 @@
 		</div>
 		<div class="button_contact" id="id-button-contact">
 			<p>CONTATO</p>
-		</div>
-	</div>
+		</div> -->
+	</div> 
 	<div class="content" id="id-content"> 
 		<div class="search_films" id="id-search-films" style="display:none">  
 			<div class="search_films_form" id="id-search-films">
@@ -65,4 +64,5 @@
 	<script src="js/LOC.js"></script>
 	<script src="js/LOC.ui.js"></script>
 	<script src="js/actions/LOC.actions.film.js"></script>
+	<script src="js/actions/LOC.actions.news.js"></script>
 </html>
